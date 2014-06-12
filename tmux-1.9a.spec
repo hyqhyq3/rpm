@@ -9,7 +9,7 @@ URL:		http://tmux.sourceforge.net
 Source0:	tmux-1.9a.tar.gz
 BuildRoot:	%(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 
-BuildRequires:	gcc ncurses-devel libevent-devel
+BuildRequires:	gcc ncurses-devel libevent-devel >= 2.0
 Requires:	ncurses libevent
 
 %description
